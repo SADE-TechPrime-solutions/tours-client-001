@@ -1,0 +1,33 @@
+import React, {useRef} from 'react';
+
+const Navigation = () => {
+    const navRef = useRef(null)
+    const handleNav = () => {
+        navRef.current.classList.toggle('active')
+    }
+    return(
+        <header className="header">
+            <h1 className="header__logo">
+                <span className="header__logo--main">Zaph tours</span>
+                {/* <span className="header__logo--sub">tours on another level</span> */}
+            </h1>
+            <nav className="header__navigation">
+                <ol className="navigation__list" ref={navRef}>
+                    <li className="navigation__list--item"><a href="#home" className="navigation__list--link">home</a></li>
+                    <li className="navigation__list--item"><a href="#about" className="navigation__list--link">about</a></li>
+                    <li className="navigation__list--item"><a href="#upcoming-tours" className="navigation__list--link">upcoming tours</a></li>
+                    {/* <li className="navigation__list--item"><a href="/" className="navigation__list--link">upcoming tours</a></li> */}
+                    <li className="navigation__list--item"><a href="#team" className="navigation__list--link">team</a></li>
+                    <li className="navigation__list--item"><a href="#testimonies" className="navigation__list--link">testimonials</a></li>
+                    <li className="navigation__list--item"><a href="#subscribe" className="navigation__list--link">subscribe</a></li>
+                </ol>
+            </nav>
+            <div className="hamburger" onClick={handleNav}>
+                <div className="hamburger__child hamburger__child--1"></div>
+                <div className="hamburger__child hamburger__child--2"></div>
+                <div className="hamburger__child hamburger__child--3"></div>
+            </div>
+        </header>
+    )
+}
+export default Navigation;

@@ -2,6 +2,7 @@ import './App.css';
 import ScrollTopBtn from './Components/Scroll-to-top/ScrollTopBtn';
 import Navigation from './Components/Navigation/Navigation';
 import Hero from './Components/Hero/Hero';
+import ImagesFlow from './Components/Hero/ImagesFlow/ImagesFlow';
 import About from './Components/About/About';
 import Tours from './Components/Tours/Tours';
 import TeamMembers from './Components/Team/Members';
@@ -15,6 +16,7 @@ function App() {
       <ScrollTopBtn />
       <Navigation />
       <Hero />
+      <ImagesFlow />
       <About />
       <Tours />
       <TeamMembers />

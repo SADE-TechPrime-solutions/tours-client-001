@@ -12,42 +12,54 @@ const Hero = () => {
                 <a href="/" className="textbox__button">explore today &hearts; &rarr;</a>
 
                 <div className="home__subfeatures">
-                    <div className="subfeature">
-                        <div className="subfeature__svg">
-                            <Building />
+                    <a href="/" className="home__subfeature--link">
+                        <div className="subfeature">
+                            <div className="subfeature__svg">
+                                <Building />
+                            </div>
+                            <p className="subfeature__text">Hikes</p>
                         </div>
-                        <p className="subfeature__text">accomodation</p>
-                    </div>
-                    <div className="subfeature">
-                        <div className="subfeature__svg">
-                            <Building />
+                    </a>
+                    <a href="/" className="home__subfeature--link">
+                        <div className="subfeature">
+                            <div className="subfeature__svg">
+                                <Building />
+                            </div>
+                            <p className="subfeature__text">safaris</p>
                         </div>
-                        <p className="subfeature__text">accomodation</p>
-                    </div>
-                    <div className="subfeature">
-                        <div className="subfeature__svg">
-                            <Building />
+                    </a>
+                    <a href="/" className="home__subfeature--link">
+                        <div className="subfeature">
+                            <div className="subfeature__svg">
+                                <Building />
+                            </div>
+                            <p className="subfeature__text">excursions</p>
                         </div>
-                        <p className="subfeature__text">accomodation</p>
-                    </div>
-                    <div className="subfeature">
-                        <div className="subfeature__svg">
-                            <Building />
+                    </a>
+                    <a href="/" className="home__subfeature--link">
+                        <div className="subfeature">
+                            <div className="subfeature__svg">
+                                <Building />
+                            </div>
+                            <p className="subfeature__text">camping</p>
                         </div>
-                        <p className="subfeature__text">accomodation</p>
-                    </div>
-                    <div className="subfeature">
-                        <div className="subfeature__svg">
-                            <Building />
+                    </a>
+                    <a href="/" className="home__subfeature--link">
+                        <div className="subfeature">
+                            <div className="subfeature__svg">
+                                <Building />
+                            </div>
+                            <p className="subfeature__text">fishing</p>
                         </div>
-                        <p className="subfeature__text">accomodation</p>
-                    </div>
-                    <div className="subfeature">
-                        <div className="subfeature__svg">
-                            <Building />
+                    </a>
+                    <a href="/" className="home__subfeature--link">
+                        <div className="subfeature">
+                            <div className="subfeature__svg">
+                                <Building />
+                            </div>
+                            <p className="subfeature__text">beach</p>
                         </div>
-                        <p className="subfeature__text">accomodation</p>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>

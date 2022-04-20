@@ -1,9 +1,17 @@
 import React from "react";
+import Navigation from "../Navigation/Navigation";
+import Heading from '../Heading/Heading'
 
 const PageSample = () => {
     return(
         <React.Fragment>
-            <h1>what you should do when climbing mount Kenya</h1>
+            <Navigation />
+            <div className="blog__container">
+                <div className="blog__blog">
+                    <Heading mainHeading="mount kenya" bgText="mount kenya" subHeading="" />
+                </div>
+                <div className="blog__blog--links"></div>
+            </div>
         </React.Fragment>
     )
 }

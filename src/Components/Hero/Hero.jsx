@@ -1,5 +1,5 @@
 import React from 'react';
-import { Building } from '../Icons/Icons';
+import { Hike, Mountain, Plane, Camp, Fish, Beach } from '../Icons/Icons';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
@@ -16,7 +16,7 @@ const Hero = () => {
                     <Link to="/climbing-mount-kenya" className="home__subfeature--link">
                         <div className="subfeature">
                             <div className="subfeature__svg">
-                                <Building />
+                                <Hike />
                             </div>
                             <p className="subfeature__text">Hikes</p>
                         </div>
@@ -24,7 +24,7 @@ const Hero = () => {
                     <Link to="/climbing-mount-kenya-2" className="home__subfeature--link">
                         <div className="subfeature">
                             <div className="subfeature__svg">
-                                <Building />
+                                <Mountain  />
                             </div>
                             <p className="subfeature__text">mountain hikes</p>
                         </div>
@@ -32,7 +32,7 @@ const Hero = () => {
                     <a href="/" className="home__subfeature--link">
                         <div className="subfeature">
                             <div className="subfeature__svg">
-                                <Building />
+                                <Plane />
                             </div>
                             <p className="subfeature__text">excursions</p>
                         </div>
@@ -40,7 +40,7 @@ const Hero = () => {
                     <a href="/" className="home__subfeature--link">
                         <div className="subfeature">
                             <div className="subfeature__svg">
-                                <Building />
+                                <Camp />
                             </div>
                             <p className="subfeature__text">camping</p>
                         </div>
@@ -48,7 +48,7 @@ const Hero = () => {
                     <a href="/" className="home__subfeature--link">
                         <div className="subfeature">
                             <div className="subfeature__svg">
-                                <Building />
+                                <Fish />
                             </div>
                             <p className="subfeature__text">fishing</p>
                         </div>
@@ -56,7 +56,7 @@ const Hero = () => {
                     <a href="/" className="home__subfeature--link">
                         <div className="subfeature">
                             <div className="subfeature__svg">
-                                <Building />
+                                <Beach />
                             </div>
                             <p className="subfeature__text">beach</p>
                         </div>

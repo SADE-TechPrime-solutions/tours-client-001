@@ -1091,3 +1091,56 @@ body {
 /* end of footer */
 
 
+
+/* blogs pages */
+.blog__container{
+  width: 98vw;
+  margin: 2rem auto;
+}
+
+.blog__textbox{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.blog__textbox--image{
+  --size: 40%;
+  min-width: var(--size);
+  height: 40rem;
+  margin-right: 1rem;
+}
+
+.blog__text--img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.blog__textbox--title{
+  font-size: 4rem;
+  text-transform: capitalize;
+  color: var(--color-grey);
+  margin-bottom: 1.5rem;
+}
+
+.blog__textbox--text{
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.u-flex-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.u-flex-reverse >:last-child{
+  margin-right: 1rem;
+}
+
+
+
+
+

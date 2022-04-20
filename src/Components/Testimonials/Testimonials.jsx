@@ -1,7 +1,6 @@
-import React, { useRef } from "react";
+import React from "react";
 import Heading from "./../Heading/Heading";
 import Testimony from "./Testimony";
-import { ChevronLeft, ChevronRight } from "../Icons/Icons";
 import traveler1 from './../../Assets/images/vac2.jpg'
 import traveler2 from './../../Assets/images/vac1.jpg'
 import traveler3 from './../../Assets/images/vac3.jpg'
@@ -14,7 +13,6 @@ import Carousel from 'react-elastic-carousel';
 // userProfileImage, name, date, testimonyTitle, testimony
 
 const Testimonials = () => {
-    const scrollContainerRef = useRef(null)
     const testimonies = [
         {
             serProfileImage: traveler1,
@@ -59,12 +57,6 @@ const Testimonials = () => {
             testimony: 'Zaph tours is the best travelling company in the world, I have tried them myself I think I have found my tour vendors from now henceforth'
         },
     ]
-    const scrollRight = () => {
-        scrollContainerRef.current.scrollBy({ left: -200, behavior: 'smooth'})
-    }
-    const scrollLeft = () => {
-        scrollContainerRef.current.scrollBy({ left: 200, behavior: 'smooth'})
-    }
   return (
     <section className="testimonials" id="testimonies">
       <Heading

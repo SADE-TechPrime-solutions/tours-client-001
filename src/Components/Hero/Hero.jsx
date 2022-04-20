@@ -1,6 +1,5 @@
 import React from 'react';
 import { Building } from '../Icons/Icons';
-import PageSample from '../Pages/PageSample';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {

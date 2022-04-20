@@ -21,14 +21,14 @@ const Hero = () => {
                             <p className="subfeature__text">Hikes</p>
                         </div>
                     </Link>
-                    <a href="/" className="home__subfeature--link">
+                    <Link to="/climbing-mount-kenya-2" className="home__subfeature--link">
                         <div className="subfeature">
                             <div className="subfeature__svg">
                                 <Building />
                             </div>
-                            <p className="subfeature__text">safaris</p>
+                            <p className="subfeature__text">mountain hikes</p>
                         </div>
-                    </a>
+                    </Link>
                     <a href="/" className="home__subfeature--link">
                         <div className="subfeature">
                             <div className="subfeature__svg">

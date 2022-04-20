@@ -4,12 +4,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PageSample from '././Components/Pages/PageSample'
+import MountKenyaHike from './Components/Pages/MountKenyaHike'
 
 ReactDOM.render(
   <BrowserRouter>
   <Routes>
     <Route path='/' element={<App />} />
     <Route path='/climbing-mount-kenya' element={<PageSample />}/>
+    <Route path='/climbing-mount-kenya-2' element={<MountKenyaHike />}/>
   </Routes>
   </BrowserRouter>,
   document.getElementById('root')

@@ -824,6 +824,11 @@ body {
   margin-top: 8rem;
 }
 
+.carousel__testimonials{
+  padding: 8rem 0;
+}
+
+
 .testimonies__container{
   width: 95vw;
   margin: 3rem auto;
@@ -831,47 +836,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-
-.testimonies__carousel{
-  display: flex;
-  width: 70%;
-  padding: 5rem 0;
-  overflow: scroll;
-}
-
-.testimonies__carousel::-webkit-scrollbar{
-  width: 0;
-}
-
-.testimonies__carousel >*:not(:last-child){
-  margin-right: 2rem;
-}
-
-.testimonies__button{
-  --size: 5rem;
-  width: var(--size);
-  height: var(--size);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-  outline: none;
-  background-color: rgba(255, 166, 0, 0.61);
-  border-radius: 50%;
-  cursor: pointer;
-  transition: all .3s ease-in-out;
-}
-
-.testimonies__button:hover{
-  background-color: var(--color-pri-sub);
-}
-
-.testimonies__button svg{
-  --size: 3rem;
-  width: var(--size);
-  height: var(--size);
-  fill: var(--color-white);
+  padding: 3rem 0;
 }
 
 .testimony{
@@ -903,7 +868,7 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: -4rem;
+  top: .3rem;
   left: 2rem;
   border-radius: 50%;
   border: 5px solid var(--color-white);

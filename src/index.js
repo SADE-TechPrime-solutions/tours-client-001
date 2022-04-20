@@ -2,11 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import PageSample from '././Components/Pages/PageSample'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+  <Routes>
+    <Route path='/' element={<App />} />
+    <Route path='/climbing-mount-kenya' element={<PageSample />}/>
+  </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

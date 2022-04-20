@@ -1,5 +1,7 @@
 import React from 'react';
 import { Building } from '../Icons/Icons';
+import PageSample from '../Pages/PageSample';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return(
@@ -12,14 +14,14 @@ const Hero = () => {
                 <a href="/" className="textbox__button">explore today &hearts; &rarr;</a>
 
                 <div className="home__subfeatures">
-                    <a href="/" className="home__subfeature--link">
+                    <Link to="/climbing-mount-kenya" className="home__subfeature--link">
                         <div className="subfeature">
                             <div className="subfeature__svg">
                                 <Building />
                             </div>
                             <p className="subfeature__text">Hikes</p>
                         </div>
-                    </a>
+                    </Link>
                     <a href="/" className="home__subfeature--link">
                         <div className="subfeature">
                             <div className="subfeature__svg">

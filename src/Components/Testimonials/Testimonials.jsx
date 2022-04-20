@@ -9,6 +9,8 @@ import traveler4 from './../../Assets/images/vac4.jpg'
 import traveler5 from './../../Assets/images/vac5.jpg'
 import traveler6 from './../../Assets/images/vac6.jpg'
 
+import Carousel from 'react-elastic-carousel';
+
 // userProfileImage, name, date, testimonyTitle, testimony
 
 const Testimonials = () => {
@@ -70,8 +72,15 @@ const Testimonials = () => {
         mainHeading="we make travellers happy"
         bgText="happy customers"
       />
+      {/* <div className="testimonies__container"> */}
+      <Carousel itemsToShow={2} className="carousel__testimonials">
+      {
+        testimonies.map((el, i) => <Testimony userProfileImage={el.serProfileImage} name={el.name} date={el.date} testimonyTitle={el.testimonyTitle} testimony={el.testimony} key={i} />)
+        }
+      </Carousel>
+      {/* </div> */}
 
-        <div className="testimonies__container">
+        {/* <div className="testimonies__container">
             <button className="testimonies__button btn--left" onClick={scrollRight}><ChevronLeft /></button>
             <div className="testimonies__carousel" ref={scrollContainerRef}>
                 {
@@ -79,7 +88,7 @@ const Testimonials = () => {
                 }
             </div>
             <button className="testimonies__button btn--right" onClick={scrollLeft}><ChevronRight /></button>
-        </div>
+        </div> */}
     </section>
   );
 };

@@ -1,4 +1,5 @@
 import './App.css';
+import SocialLinks from './Components/SocialLinks/SocialLinks';
 import ScrollTopBtn from './Components/Scroll-to-top/ScrollTopBtn';
 import Navigation from './Components/Navigation/Navigation';
 import Hero from './Components/Hero/Hero';
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <ScrollTopBtn />
       <Navigation />
+      <SocialLinks />
       <Hero />
       <ImagesFlow />
       <About />

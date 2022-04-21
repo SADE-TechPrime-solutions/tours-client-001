@@ -344,7 +344,32 @@ body {
   font-weight: 600;
 }
 /* end of marquee */
+.social__links__side{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 1rem;
+  align-items: center;
+  background-color: var(--color-pri-sub);
+  position: fixed;
+  top: 50%;
+  left: 3rem;
+  transform: translateX(-50%);
+  z-index: 10000000;
+  box-shadow: 0 0 8px var(--color-grey-dark);
+  border-radius: 3px;
+}
 
+.social__links__side>*:not(:last-child){
+  margin-bottom: 1rem;
+}
+
+.social__link__side svg{
+  --size:3rem;
+  width: var(--size);
+  height: var(--size);
+  fill: var(--color-white);
+}
 /* Home */
 .home{
   width: 100vw;

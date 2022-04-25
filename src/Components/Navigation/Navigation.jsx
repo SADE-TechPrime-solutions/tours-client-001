@@ -8,7 +8,7 @@ const Navigation = () => {
     return(
         <header className="header">
             <h1 className="header__logo">
-                <span className="header__logo--main">Zaph tours</span>
+                <span className="header__logo--main">wilderness alternative expedition</span>
                 {/* <span className="header__logo--sub">tours on another level</span> */}
             </h1>
             <nav className="header__navigation">

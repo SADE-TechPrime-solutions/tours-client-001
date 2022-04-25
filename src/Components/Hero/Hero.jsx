@@ -10,7 +10,7 @@ const Hero = () => {
                     <span className="home__title--main">Discover</span>
                     <span className="home__title--sub">the world</span>
                 </h1>
-                <a href="/" className="textbox__button">explore today &hearts; &rarr;</a>
+                <Link className="textbox__button" to='/gallery'>explore today &hearts; &rarr;</Link>
 
                 <div className="home__subfeatures">
                     <Link to="/climbing-mount-kenya" className="home__subfeature--link">

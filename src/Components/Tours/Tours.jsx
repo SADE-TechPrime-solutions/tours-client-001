@@ -13,27 +13,27 @@ const Tours = () => {
   const tours = [
     {
       image: tourImg1,
-      duration: "24 April 2022 - 29 April 2022",
-      zone: "thiba falls",
-      pricing: "from $10",
+      duration: "5 days trip",
+      zone: "mount kenya",
+      pricing: "from $1000",
       description:
-        "come enjoy a beatiful hike to thiba falls, free lunch and unlimited photography and show your friends how good you are at swimming",
+        "A classic adventure on Mount Kenya which is not too long, although the summit day itself is challenging and at relatively high altitude. Expect quite a lot of wildlife and lots of secluded trails with bizarre flora and fauna.",
     },
     {
       image: tourImg2,
-      duration: "4 may 2022 - 5 may 2022",
-      zone: "castle mountain",
-      pricing: "from $12",
+      duration: "7 days hike",
+      zone: "mount kilimanjaro",
+      pricing: "from $1600",
       description:
-        "we take an adventure hike through the forest as we stomp our way through the rocks to the catering and fun.",
+        "Rising majestically above the African plains, Mt. Kilimanjaro has beckoned to climbers since the first recorded summit in 1889.Nearly every climber who has summitted Uhuru Peak, the highest summit on Kibo’s crater rim, has recorded his or her thoughts about the accomplishment in a book stored in a wooden box at the top?",
     },
     {
       image: tourImg3,
-      duration: "5 august 2022 - 20 august 2022",
-      zone: "mt kenya",
-      pricing: "from $30",
+      duration: "6 days trip",
+      zone: "nothern kenya special",
+      pricing: "from $2600",
       description:
-        "will you be strong to climb the mountain and write at the center of mt kenya I was here? And ooh, don't forget heavy clothing.",
+        "",
     },
     {
       image: tourImg4,

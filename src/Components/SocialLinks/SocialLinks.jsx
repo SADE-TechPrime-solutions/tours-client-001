@@ -7,13 +7,13 @@ const SocialLinks = () => {
             <a href="/" className="social__link__side">
                 <WhatsApp1 />
             </a>
-            <a href="/" className="social__link__side">
+            <a href="https://www.instagram.com/eastafricanorthwildsafaris/" target="_blank" className="social__link__side">
                 <Ig2 />
             </a>
-            <a href="/" className="social__link__side">
+            <a href="https://web.facebook.com/Wilderness-Alternative-Expendation-106636452031478" target="_blank" className="social__link__side">
                 <Facebook />
             </a>
-            <a href="mailto:zaphdev365@gmail.com" className="social__link__side">
+            <a href="mailto:mutumakinyuakennedy@gmail.com" className="social__link__side">
                 <Envelope />
             </a>
         </div>

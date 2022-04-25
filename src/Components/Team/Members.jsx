@@ -7,8 +7,8 @@ const TeamMembers = () => {
     const teamMembers = [
         {
             image: teamMember,
-            name: 'Dennis Otwoma',
-            position: 'chief executive officer',
+            name: 'Kennedy Mutuma',
+            position: 'chief executive officer, founder',
             message: 'Zaph tours is focused on givin you the ultimate travelling ang trips experience you\'ve been thinkin of ranging from tours abroad to anywhere you can think of. We are the first tours company to take people to the moon.'
         },
         {

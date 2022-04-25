@@ -53,7 +53,10 @@ const About = () => {
                 <Heading subHeading="About us" mainHeading="know more about zaph tours" bgText="about zaph tours" />
                 </div>
                 <p className="about__description">
-                    We are a tours company based in Kirinyaga county Kenya, we are entirely focused on how our customers enjoy life at the lowest prices possible. Some of our tours are in fact free.
+                As the sun rises over the African Bush and little birds announce a new day with songs of joy, the hyenas call each other home after a long night's work, and the lions broadcast a last lazy declaration of dominion over their kingdom. Their bellies are full, and the day's rest is about to begin. But the Pan the wilderness alternative  Expedition team are wide awake, because they are on a special mission to make your African  adventure one that you will never forget.
+Rooms are prepared, and mouth-watering meals are artfully brought into existence for when our guests return from exploring the exciting treasures of Africa with our  professional guide. From the BIG 5, to the incredible fauna and flora, you always learn something on safari with our knowledgeable guides. But exciting adventures can be tiring and as the sun sets over the African Bush and the lion announces the start of the night shift, our wood fire is lit under the stars. For this is where the centuries-old tradition of telling stories combines your story with ours.
+
+This is where you are creating memories that will last forever, with people you love… We want to make every priceless moment count forever.
                 </p>
                 <div className="about__self-sale-container">
                     {/* <p className="about__self-sale--text">Why choose us:</p> */}

@@ -18,7 +18,7 @@ const Hero = () => {
                             <div className="subfeature__svg">
                                 <Hike />
                             </div>
-                            <p className="subfeature__text">Hikes</p>
+                            <p className="subfeature__text">mt ruwenzori</p>
                         </div>
                     </Link>
                     <Link to="/climbing-mount-kenya-2" className="home__subfeature--link">
@@ -26,7 +26,7 @@ const Hero = () => {
                             <div className="subfeature__svg">
                                 <Mountain  />
                             </div>
-                            <p className="subfeature__text">mountain hikes</p>
+                            <p className="subfeature__text">mt kenya</p>
                         </div>
                     </Link>
                     <a href="/" className="home__subfeature--link">
@@ -34,7 +34,7 @@ const Hero = () => {
                             <div className="subfeature__svg">
                                 <Plane />
                             </div>
-                            <p className="subfeature__text">excursions</p>
+                            <p className="subfeature__text">mount kilimanjaro</p>
                         </div>
                     </a>
                     <a href="/" className="home__subfeature--link">
@@ -42,7 +42,7 @@ const Hero = () => {
                             <div className="subfeature__svg">
                                 <Camp />
                             </div>
-                            <p className="subfeature__text">camping</p>
+                            <p className="subfeature__text">nothern kenya</p>
                         </div>
                     </a>
                     <a href="/" className="home__subfeature--link">
@@ -50,17 +50,17 @@ const Hero = () => {
                             <div className="subfeature__svg">
                                 <Fish />
                             </div>
-                            <p className="subfeature__text">fishing</p>
+                            <p className="subfeature__text">combined kenya tanzania safari</p>
                         </div>
                     </a>
-                    <a href="/" className="home__subfeature--link">
+                    {/* <a href="/" className="home__subfeature--link">
                         <div className="subfeature">
                             <div className="subfeature__svg">
                                 <Beach />
                             </div>
                             <p className="subfeature__text">beach</p>
                         </div>
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </section>

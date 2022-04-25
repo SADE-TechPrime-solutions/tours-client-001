@@ -12,33 +12,28 @@ const ImagesFlow = () => {
     const toursData = [
         {
             image: amboselli,
-            title: 'Amboselli',
-            description: 'The might taks of Amboselli'
+            title: 'Amboselli national park',
+            description: 'The national park has over 80 different mammals and over 400 bird species. Nature lovers who love the view of a mountain, Amboseli is the best place to be since Mount Kilimanjaro is the backdrop to the park. It is also home to the big five. You will love everything about Amboseli for its contemporary Maasai culture and their indigenous lifestyle.'
         },
         {
             image: desertMesuem,
-            title: 'the desert museum',
-            description: 'The Desert Museum in Chalbi Desert'
+            title: 'mount kenya',
+            description: 'The highest peak on Mount Kenya is Batian at 5199m, the second highest peak is Nelion which is just 11 metres smaller (5188 m) and both these peaks are technical climbing peaks. Point Lenana is the third highest peak (4985m) and is the second highest trekking peak in Africa.'
         },
         {
             image: clientsClimbing,
-            title: 'clients climbing a mountain',
-            description: 'Our clients climbing via the highest ferrate in the world from Austrian Hut to the summit'
+            title: 'mount kilimanjaro',
+            description: 'Thinking of climbing Mount Kilimanjaro with us? Kilimanjaro is not only Africa\'s tallest peak, but also the world\'s tallest free standing mountain. The summit, named Uhuru Point, is 5,895 meters (19,341 feet) above sea level. Most high mountains are part of ranges, such as Mount Everest\'s Himalayan Mountain Range.'
         },
         {
             image: lakeMichaelSon,
-            title: 'Lake michaelson',
-            description: 'A view of the lake Michaelson on Mount Kenya'
+            title: 'the nothern kenya',
+            description: 'Northern Kenya is one of the world\'s last great wildernesses. This rugged, dusty land is rich in history, cultural heritage and isolated appeal and offers the most epic of adventures for the wild at heart. Here, fiery desert plains give way to luscious jungles; bubbling oasis streams are set against imposing, glorious mountain ranges and black, volcanic lakeshores are trodden by some of the world\'s most remote tribes'
         },
         {
             image: wildernessFun,
-            title: 'having fun in the wilderness',
-            description: 'Have wine and make fun with your friends in the wilderness. Travelling as a group is awesome.'
-        },
-        {
-            image: flamingo,
-            title: 'lake nakuru',
-            description: 'Come have fun watching the flamingoes, such a nice sight to see the community of these of these birds.'
+            title: 'lake turkana',
+            description: 'A safari to Lake Turkana? Their is nothing like Sunset in Lake Turkana,  also called lake Rudolf, fourth largest of the eastern African lakes. It lies mainly in northern Kenya, with its northern end stretching into Ethiopia. The lake lies in the eastern arm of eastern Africa\'s Rift Valley.'
         },
     ]
     return(

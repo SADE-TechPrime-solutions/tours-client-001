@@ -1293,3 +1293,142 @@ body {
 .tour__page__image:hover .tour__page__image--img{
   transform: scale(0.98);
 }
+
+
+
+
+/* Recollection */
+/* styling for extra pages */
+.fe-hero{
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%, 0 0);
+}
+
+.fe-hero__textbox{
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6));
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 4rem;
+}
+
+.herofe__title{
+  font-size: 5rem;
+  color: var(--color-white);
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+  letter-spacing: 2px;
+}
+
+.herofe__description{
+  font-size: 1.7rem;
+  color: var(--color-white);
+  width: 90%;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.fe-benefits{
+  margin: 5rem auto;
+}
+
+.fe-benefits__container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  justify-items: center;
+  align-content: center;
+  gap: 3rem;
+  width: 80vw;
+  margin: 3rem auto;
+}
+
+.benefit >*:not(:last-child){
+  margin-bottom: 1rem;
+}
+
+.benefit__image{
+  width: 100%;
+  height: 20rem;
+}
+
+.benefit__image--img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.benefit__title{
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: var(--color-pri-sub);
+  text-transform: capitalize;
+}
+
+.benefit__description{
+  font-size: 1.4rem;
+}
+
+.educational{
+  width: 80vw;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+}
+
+.educational__image{
+  min-width: 50rem;
+  height: 60rem;
+  margin-left: 2rem;
+}
+
+.educational__image--img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.educational__title{
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #333;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+
+.educational__list{
+  list-style: decimal-leading-zero;
+  font-size: 1.7rem;
+  color: #444;
+  text-align: justify;
+}
+
+.educational__list>*:not(:last-child){
+  margin-bottom: 1rem;
+}
+
+.educational__item{
+  list-style: decimal-leading-zero;
+}
+
+@media screen and (max-width: 750px) {
+  .educational{
+    width: 90vw;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .educational__image{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}

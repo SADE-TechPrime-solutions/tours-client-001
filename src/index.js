@@ -5,7 +5,8 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PageSample from '././Components/Pages/PageSample';
 import MountKenyaHike from './Components/Pages/MountKenyaHike';
-import GalleryPage from './Components/Pages/GalleryPage/Gallery'
+import GalleryPage from './Components/Pages/GalleryPage/Gallery';
+import MountKenyaPage from './Components/Pages/FullExplanation/MtKenya'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -14,6 +15,7 @@ ReactDOM.render(
     <Route path='/climbing-mount-kenya' element={<PageSample />}/>
     <Route path='/climbing-mount-kenya-2' element={<MountKenyaHike />}/>
     <Route path='gallery' element={<GalleryPage />} />
+    <Route path='/mount-kenya' element={<MountKenyaPage />} />
   </Routes>
   </BrowserRouter>,
   document.getElementById('root')

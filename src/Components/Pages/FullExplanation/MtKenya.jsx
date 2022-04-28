@@ -4,6 +4,7 @@ import HeroFE from "./Hero/Hero";
 import Arrangement from "./Arrangements/Arrangement";
 import Educational from "./Educational/Educational";
 import Benefit from "./Benefits/Benefit";
+import Footer from "./Footer/Footer";
 
 
 import imgbg from "./../../../Assets/images/vac6.jpg";
@@ -52,6 +53,7 @@ const MountKenyaPage = () => {
       </section>
       {/* end of benefits */}
       <Educational />
+      <Footer />
     </div>
   );
 };

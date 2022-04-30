@@ -12,7 +12,7 @@ import clientImg from "./../../../Assets/images/Client-1.jpg";
 
 import LoaderAnimation from "../../Loader/LoaderAnimation";
 
-const MountKenyaPage = () => {
+const MountKilimanjaroPage = () => {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
@@ -34,7 +34,7 @@ const MountKenyaPage = () => {
           // {/* hero */}
           <HeroFE
             backImg={imgbg}
-            title="climb mount kenya via chogoria route in 5 days"
+            title="climb mount Kilimanjaro in 10 days"
             description="Experience beautiful landscapes and spectacular mountain views on this 5-day Mt Kenya climb along the Chogoria Route. From gentle hikes to steep ascents, this route will lead you through fairy forests and moorlands, passing high waterfalls and gurgling streams. Make sure to look for elephants, buffaloes, and antelopes in the lower mountain region."
           />
           // {/* end of hero */}
@@ -177,4 +177,4 @@ The Mount Kenya  trek cost , the second depends on a few factors i.e The number 
   );
 };
 
-export default MountKenyaPage;
+export default MountKilimanjaroPage;

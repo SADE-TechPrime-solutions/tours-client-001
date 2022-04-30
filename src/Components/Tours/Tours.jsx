@@ -27,7 +27,7 @@ const Tours = () => {
       pricing: "from $1600",
       description:
         "Rising majestically above the African plains, Mt. Kilimanjaro has beckoned to climbers since the first recorded summit in 1889.Nearly every climber who has summitted Uhuru Peak, the highest summit on Kibo’s crater rim, has recorded his or her thoughts about the accomplishment in a book stored in a wooden box at the top?",
-        link: '/mount-kenya'
+        link: '/mount-kilimanjaro'
     },
     {
       image: tourImg3,

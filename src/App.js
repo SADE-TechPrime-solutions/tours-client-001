@@ -3,7 +3,7 @@ import SocialLinks from './Components/SocialLinks/SocialLinks';
 import ScrollTopBtn from './Components/Scroll-to-top/ScrollTopBtn';
 import Navigation from './Components/Navigation/Navigation';
 import Hero from './Components/Hero/Hero';
-import ImagesFlow from './Components/Hero/ImagesFlow/ImagesFlow';
+// import ImagesFlow from './Components/Hero/ImagesFlow/ImagesFlow';
 import About from './Components/About/About';
 import Tours from './Components/Tours/Tours';
 import TeamMembers from './Components/Team/Members';
@@ -18,9 +18,8 @@ function App() {
       <Navigation />
       <SocialLinks />
       <Hero />
-      <ImagesFlow />
-      <About />
       <Tours />
+      <About />
       <TeamMembers />
       <Testimonials />
       <Subscribe />

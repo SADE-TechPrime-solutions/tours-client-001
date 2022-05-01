@@ -380,7 +380,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(./Assets/images/bgh3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(./Assets/images/wildlife.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -435,6 +435,12 @@ body {
   position: absolute;
   bottom: 0;
   overflow: hidden;
+  opacity: .4;
+  transition: all .3s ease-out;
+}
+
+.home__subfeatures:hover{
+  opacity: 1;
 }
 
 .subfeature{
@@ -1413,9 +1419,10 @@ body {
 }
 
 .educational__image{
-  min-width: 50rem;
-  height: 60rem;
-  margin-left: 2rem;
+  width: 50rem;
+  height: 30rem;
+  margin: 3rem auto;
+  box-shadow: 0 0 10px;
 }
 
 .educational__image--img{
@@ -1425,12 +1432,19 @@ body {
   object-fit: cover;
 }
 
+.educational__image--caption{
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-style: oblique;
+}
+
 .educational__title{
   font-size: 3.5rem;
   font-weight: 800;
   color: #333;
   text-transform: capitalize;
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .educational__text{
@@ -1462,10 +1476,6 @@ body {
   margin: 6rem auto;
   display: flex;
   align-self: flex-start;
-}
-
-.arrangements__container >*{
-  width: 48vw;
 }
 
 .arrangements{
@@ -1542,6 +1552,13 @@ body {
   text-align: justify;
   line-height: 1.5;
   letter-spacing: .7px;
+  margin-bottom: 1.2rem;
+}
+
+.educational__subtitle{
+  font-size: 1.8rem;
+  text-decoration: underline;
+  color: var(--color-pri-sub);
 }
 /* end of arrangements */
 
@@ -1640,9 +1657,30 @@ body {
 /* end of the footer */
 
 
+/* additionals */
+/* route details */
+.route-detail{
+  width: 90vw;
+  margin: 1rem auto;
+}
 
+.route-detail__title{
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
 
+.route-detail__description{
+  font-size: 1.6rem;
+  text-align: justify;
+  line-height: 1.3;
+}
 
+.background__information{
+  width: 95vw;
+  margin: auto;
+  margin-bottom: 2rem;
+}
 
 
 

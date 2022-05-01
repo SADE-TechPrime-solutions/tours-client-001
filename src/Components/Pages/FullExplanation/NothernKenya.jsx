@@ -22,7 +22,7 @@ import chogoriaRouteViaMentosCamp from "./../../../Assets/images/client-images/c
 
 import LoaderAnimation from "../../Loader/LoaderAnimation";
 
-const MountKenyaPage = () => {
+const NothernKenya = () => {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
@@ -44,7 +44,7 @@ const MountKenyaPage = () => {
           // {/* hero */}
           <HeroFE
             backImg={imgbg}
-            title="climb mount kenya via chogoria route in 5 days"
+            title="Are you ready to do something in Nothern Kenya"
             description="Experience beautiful landscapes and spectacular mountain views on this 5-day Mt Kenya climb along the Chogoria Route. From gentle hikes to steep ascents, this route will lead you through fairy forests and moorlands, passing high waterfalls and gurgling streams. Make sure to look for elephants, buffaloes, and antelopes in the lower mountain region."
           />
           // {/* end of hero */}
@@ -160,31 +160,60 @@ const MountKenyaPage = () => {
           {/* benefits */}
           <section className="fe-benefits">
             <Heading
-              mainHeading="most popular mount kenya trekking routes"
-              subHeading="wilderness alternatives mount kenyat treking routes"
-              bgText="routes"
+              mainHeading="top places to visit in nothern kenya"
+              subHeading="visit nothern kenya"
+              bgText="nothern kenya"
             />
             <div className="fe-benefits__container">
               <Benefit
                 image={georgesValley}
-                title="chogoria sirimon route"
-                description="Chogoria to Sirimon is the most scenic transverse of the Mt Kenya routes. The perfect combination with multiple high altitude lakes, where you can do fly fishing of brown trout fish, forest vegetation, and waterfalls to behold. Accommodation is camping in tent."
+                title="samburu national park"
+                description="Samburu National Reserve is made up of scrubby, open bush land and savanna, with the fringing riverine forest of acacias and large doum palms extending along the edge of the Ewaso Ngiro. This river is the heart of the park, as it not only makes it a beautiful and very photogenic park (contrasting against the bright and dry red soil), but also attracts a diversity of wildlife all year round. A range of animals come down to the river to drink and cool off in, and with crocodiles and hippos hiding in the shallow sand banks, surprises always await! Samburu National Reserve also has a particularly high elephant populations, and big families of them too! This is because the park is a migratory corridor that herds use daily, moving between Laikipia, Samburu and Mount Kenya for food, mating and minerals. The Mount Kenya Trust have seen huge success in its number of elephants using both the human-made and natural areas of the migratory corridor, dramatically reducing human-elephant conflict."
               />
               <Benefit
                 image={shiptons}
-                title="sirimon route"
-                description="The Sirimon Route is accesseed via the North West corner of the mountain here. The rout is usually considered one of the easire routes as it climbs rlatively gradually only a couple of steeper sections to reach the top camp. It is also currently the most popular route, though it is by no means busy."
+                title="lake turkana"
+                description="Lake Turkana, formerly known as Lake Rudolf, and also sometimes referred to as the Jade Sea because of its waters' distinct colour is a desert lake found in Kenya's north-western frontier. It is the world's largest, permanent desert lake and is a UNESCO Important Bird Area. It is also enlisted as one of the endangered resources."
               />
               <Benefit
                 image={austrianHut}
-                title="naro moru"
+                title="meru national park"
                 description="This route used to be by far the most popular route as it is relatively short and has huts at Met Station (3050m) and MacKinders (4200m). However, it has been overtaken by the Sirimon route as the most popular.The forest is still dense on this route, as is the bamboo zone. You are quite likely to see bushbuck, Colobus monkey and Sykes Monkey and also evidence of Buffalo and Elephant."
               />
               <Benefit
                 image={chogoriaRouteViaMentosCamp}
-                title="chogoria route"
+                title="lewa wildlife conservacy"
                 description="The Chogoria-sirimon route is our recommended and arguably the most magnificent ascent route to the summit area. It is the driest route up the mountain and the walk beside the Gorges Valley is truly spectacular.
                 The descent by the Sirimon route takes one through some beautiful forest tracks and completes the traverse of the mountain"
+              />
+              <Benefit
+                image={chogoriaRouteViaMentosCamp}
+                title="chalbi desert"
+                description="The Chogoria-sirimon route is our recommended and arguably the most magnificent ascent route to the summit area. It is the driest route up the mountain and the walk beside the Gorges Valley is truly spectacular.
+                The descent by the Sirimon route takes one through some beautiful forest tracks and completes the traverse of the mountain"
+              />
+              <Benefit
+                image={chogoriaRouteViaMentosCamp}
+                title="marsabit national park"
+                description="The Chogoria-sirimon route is our recommended and arguably the most magnificent ascent route to the summit area. It is the driest route up the mountain and the walk beside the Gorges Valley is truly spectacular.
+                The descent by the Sirimon route takes one through some beautiful forest tracks and completes the traverse of the mountain"
+              />
+              <Benefit
+                image={chogoriaRouteViaMentosCamp}
+                title="mt kulal in loyangalani"
+                description="The Chogoria-sirimon route is our recommended and arguably the most magnificent ascent route to the summit area. It is the driest route up the mountain and the walk beside the Gorges Valley is truly spectacular.
+                The descent by the Sirimon route takes one through some beautiful forest tracks and completes the traverse of the mountain"
+              />
+              <Benefit
+                image={chogoriaRouteViaMentosCamp}
+                title="buffalo springs national reserve"
+                description="The Chogoria-sirimon route is our recommended and arguably the most magnificent ascent route to the summit area. It is the driest route up the mountain and the walk beside the Gorges Valley is truly spectacular.
+                The descent by the Sirimon route takes one through some beautiful forest tracks and completes the traverse of the mountain"
+              />
+              <Benefit
+                image={chogoriaRouteViaMentosCamp}
+                title="loyangalani desert museum"
+                description="Standing on a bluff above the lake several kilometres north of town, this museum covers the history and cultures of northern Kenya. The rooms contain lots of photo-heavy displays, but it’s seriously overpriced. Opening hours are basically whenever an interested person comes along. There is also accommodation available, which has the best views in Loyangalani."
               />
             </div>
           </section>
@@ -253,4 +282,4 @@ const MountKenyaPage = () => {
   );
 };
 
-export default MountKenyaPage;
+export default NothernKenya;

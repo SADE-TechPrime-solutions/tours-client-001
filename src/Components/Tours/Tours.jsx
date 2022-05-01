@@ -35,7 +35,7 @@ const Tours = () => {
       zone: "nothern kenya",
       pricing: "from $2600",
       description:"Get off the trodden tourist tracks on this camping expedition to remote, isolated and wild parts of northern Kenya. Journey along rough African roads to picturesque Lake Turkana and the stark Chalbi Desert then lush Marsabit National Park and the game-rich Samburu National Reserve, travelling by 4x4 Land Cruiser or overland truck.",
-      link: '/mount-kenya'
+      link: '/nothern-kenya'
     },
     {
       image: tourImg4,

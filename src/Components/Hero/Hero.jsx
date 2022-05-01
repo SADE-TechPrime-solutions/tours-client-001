@@ -53,14 +53,6 @@ const Hero = () => {
                             <p className="subfeature__text">combined kenya tanzania safari</p>
                         </div>
                     </a>
-                    {/* <a href="/" className="home__subfeature--link">
-                        <div className="subfeature">
-                            <div className="subfeature__svg">
-                                <Beach />
-                            </div>
-                            <p className="subfeature__text">beach</p>
-                        </div>
-                    </a> */}
                 </div>
             </div>
         </section>

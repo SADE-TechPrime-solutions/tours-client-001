@@ -44,7 +44,7 @@ const Tours = () => {
       pricing: "from $1900",
       description:
         "The Rwenzori Mountains is one of the top destinations visited by travelers that wish to explore the snow-capped mountains within Africa. Trekking the green, mist-shrouded Rwenzori Mountains is like stepping into a wonderland. An incredible experience will stay with you for a lifetime when a person talks about the Rwenzoris",
-        link: '/mount-kenya'
+        link: '/mount-ruwenzori'
     },
     {
       image: tourImg6,

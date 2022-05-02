@@ -13,7 +13,7 @@ import maranguImg from "./../../../Assets/images/client-images/marangu-route-sta
 
 import LoaderAnimation from "../../Loader/LoaderAnimation";
 
-const MountKilimanjaroPage = () => {
+const MountRuwenzoriPage = () => {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
@@ -30,7 +30,7 @@ const MountKilimanjaroPage = () => {
           // {/* hero */}
           <HeroFE
             backImg={imgbg}
-            title="climb mount Kilimanjaro in 10 days"
+            title="i love ruwenzori"
             description="As the popularity of climbing Mount Kilimanjaro continues to increase, potential climbers are often uncertain as to which route to take. This site will explain the differences between the routes and help you decide which is the best for you. At 5,895 meters (19,341 feet) Mount Kilimanjaro is the highest mountain in Africa and the tallest freestanding mountain in the world; it is one of the Seven Summits. The snow-capped peak of Africa is a dormant volcano and can be found inside the Kilimanjaro National Park of Tanzania."
           />
           // {/* end of hero */}
@@ -39,27 +39,36 @@ const MountKilimanjaroPage = () => {
             <div className="arrangements__container">
               <div className="arrangements__descritption">
                 <Heading
-                  bgText="trip arrangements"
-                  mainHeading="preparing for mount Kilimanjaro"
-                  subHeading="trip arrangements"
+                  bgText="the mountain of the moon"
+                  mainHeading="climbing mount ruwnzori in uganda"
+                  subHeading="the mountain of the moon"
                 />
                 <h4 className="educational__subtitle">
                   Background Information
                 </h4>
                 <p className="arrangements__description--text">
-                  Some 30,000 people climb Kilimanjaro every year, making it one
-                  of Africa’s most popular attractions. And as Africa’s highest
-                  peak and one of the fabled Seven Summits, the summit is also
-                  one of the most challenging attractions to reach! Tanzania’s
-                  iconic mountain stands at 5895 metres but despite its
-                  intimidating size, conquering it is entirely feasible if
-                  you’ve got a good level of fitness and a decent amount of
-                  determination. To climb up Kilimanjaro, you’ll need both
-                  physical and mental strength, but that rewarding feeling and
-                  sense of achievement at the top will be completely worth it.{" "}
+                  Are you thinking of a mountaineering trip in Africa? The
+                  Rwenzori Mountains is one of the top destinations visited by
+                  travelers that wish to explore the snow-capped mountains
+                  within Africa. Trekking the green, mist-shrouded Rwenzori
+                  Mountains is like stepping into a wonderland. An incredible
+                  experience will stay with you for a lifetime when a person
+                  talks about the Rwenzoris Where Are the Rwenzori Mountains?
+                  Rwenzori Mountains National Park is located in South Western
+                  Uganda. It is shared by Uganda and Democratic Republic of
+                  Congo (DRC). In Uganda, these mountain ranges are found in
+                  Rwenzori National Park while in Congo it found in Virunga
+                  National Park, Africa’s oldest national park. The Rwenzori
+                  Mountains are composed of various ranges and they are located
+                  within the great Albertine Rift valley. The ranges run for 130
+                  km north to south along the border between western Uganda and
+                  eastern DRC. The Ugandan portion of the mountains can be found
+                  in the southwest of the country. Visitors that visit Rwenzori
+                  Mountains can addon wildlife safari in Queen Elizabeth
+                  National Park which is the closest Park.
                 </p>
 
-                <h4 className="educational__subtitle">
+                {/* <h4 className="educational__subtitle">
                   Train for hiking on Mount Kilimanjaro
                 </h4>
                 <p className="arrangements__description--text">
@@ -71,105 +80,30 @@ const MountKilimanjaroPage = () => {
                   prepare, so using weights and doing core exercises such as
                   planks, squats and lunges will strengthen your legs for
                   hiking.
-                </p>
-                <p className="arrangements__description--text">
-                  The best way to prepare for the trek itself  is through plenty
-                  of long walks. Doing regular 4-6 hour walks in the boots
-                  you'll be wearing (to avoid blisters when you're on
-                  Kilimanjaro) and with your backpack filled with the snacks
-                  you'll eat on the mountain; this will help you to get used to
-                  the time on your feet and which foods you prefer to eat while
-                  hiking. In the few months before your climb you should aim to
-                  do one of these walks at least every two to three weeks; more
-                  if you can fit them in.
-                </p>
-
-                <h4 className="educational__subtitle">
-                  What to carry on your Kilimanjaro trek
-                </h4>
-                <p className="arrangements__description--text">
-                  Aside from carrying waterproofs while you're walking, it's
-                  also a good idea to take plenty of water. The Water-to-Go
-                  filtration bottles are great for hiking because you don't need
-                  to use chlorine tablets - simply fill and go. Take
-                  additional traditional water bottles to fill them up
-                  from throughout the trekking day. Our top tip is to separate
-                  your items into dry bags  so you can find everything you need
-                  quickly and protect it further from the elements (plastic bags
-                  are now banned in Tanzania so don't use them to separate
-                  items). It's best to keep weight to a minimum but a basic
-                  first aid kit, your camera (or phone), a power bank (as there
-                  will be no power points on Kilimanjaro), spare socks (trust us
-                  on this!) and spare batteries are all good essentials.
-                </p>
-
-                <h4 className="educational__subtitle">
-                  What is the best time to climb kilimanjaro?
-                </h4>
-                <p className="arrangements__description--text">
-                  Our trips run from July through to October and from the end of
-                  December to February to avoid the main rainy seasons;
-                  however it can still rain at any time on Kilimanjaro, and at
-                  the higher altitudes this may fall as snow. It's generally
-                  warmest in January and February and driest between August and
-                  October.   Quite often trekkers will take the night sky into
-                  consideration when choosing their trip. If you trek during a
-                  full moon you have the best chance for a well-lit path to the
-                  top (weather permitting) but the stars will be dimmer; for
-                  those looking for spectacular stars, climbing during a new
-                  moon will give you an incredible night-sky but less light. As
-                  the world's highest free-standing mountain, this will be one
-                  of the few places on Earth to see the night sky so clearly
-                  without obstacles on the horizon.
-                </p>
-                <h4 className="educational__subtitle">
-                  Always prepare mentally for altitude
-                </h4>
-                <p className="arrangements__description--text">
-                  People that have climbed Kilimanjaro will tell you that the
-                  majority of walking is on decent terrain and not too steep.
-                  However the trek to the summit is undoubtedly the hardest -
-                  much of the terrain underfoot is scree (although it is frozen
-                  for the ascent, which helps - this is part of the reason the
-                  trek is done at night) and visibility is low until the sun
-                  rises, but the toughest part is the altitude. With wilderness
-                  Alternative Expedition  You'll ascend the mountain slowly and
-                  acclimatise well, giving you the best possible chance of
-                  summit success. All our trek leaders are trained in high
-                  altitude first aid and know the signs to look out for when
-                  Acute Mountain Sickness (AMS) may become more serious. In
-                  addition, all trek teams carry oxygen canisters and a portable
-                  hyberbaric (pressure) bag on the mountain for emergency use.
-                  The main trick is to take your time, go slowly and listen to
-                  your body - the guides will remind you to go "Pole, pole",
-                  meaning "slowly, slowly"
-                </p>
+                </p> */}
               </div>
             </div>
           </section>
           {/* end of arrangements and documentation */}
           <section className="educational-section">
             <h1 className="educational__title">
-              mount kilimanjaro climbing routes
+              mount ruwenzori route details
             </h1>
             <p className="background__information route-detail__description">
-              There are seven established routes to climb Mount Kilimanjaro -
-              Marangu, Machame, Lemosho, Shira, Rongai, Northern Circuit and
-              Umbwe. The Marangu, Machame, and Umbwe routes all approach from
-              the south of the mountain (Mweka is used only for descent). The
-              Lemosho, Shira and Northern Circuit routes approach from the west.
-              Selecting a route is a tough choice for most. To find the best
-              Kilimanjaro route for you, considerations should be taken for the
-              route's scenery, difficulty, foot traffic and its altitude
-              acclimatization characteristics, as depicted in the description
-              below
-              <strong>
-                some of the wilderness alternative recommended routes are:
-              </strong>
+              The mountain is a home to various tree and plant species, as well
+              as flowers. If you enjoy amazing mountain scenery and hiking but
+              don't have advanced mountaineering skills, there are two
+              routes around the region that give you a spectacular Rwenzori
+              experience without the overwhelming challenge of ascending these
+              mountains. There are special things about exploring the Rwenzori
+              Mountains and these two routes will offer you all the scenic
+              beauty of the region.
             </p>
             <RouteDetails
-              title="machame"
-              description="The Machame route on Kilimanjaro is a seven day camping route which allows for excellent acclimatisation and particularly diverse scenery. It has been called the Whiskey route in the past and nowadays about 35% of all climbers on the mountain use it.In a matter of days you will climb Kilimanjaro from the equator up to an Arctic zone, moving through grasslands, tropical rainforest, alpine meadows, moorlands and high desert to snow and ice. Each day on this route presents quite a distinct ecosystem to experience, which is one reason it is so popular. The entire climb up and down is approximately 62 km/ 37 miles from gate to gate. The height gain from the gate to the summit is 4157 metres, which is ascended over six days of around 5-7 days walking each day.From the start you will be speaking with experienced people who have climbed Kilimanjaro many times, including Kenny who has been leading groups on the mountain regularly  and is always on hand for advice. We can give you an honest appraisal of the climb, about training for the mountain what clothing and equipment you will need to buy or rent . The camps for the seven day Machame route are Machame, Shira, Barranco, Karanga Valley, Barafu and Millennium (or sometimes Mweka). Please talk to one of our specialists on WhatsApp to learn  more about  this route."
+              title="Rwenzori Central Circuit"
+              description="The Rwenzori Central Circuit is the oldest and most popular route used to get to the stunning Margherita Peak on Mountain Rwenzori. It is managed and operated by the indigenous Bakonjo people who reside around the Mountain. The major reason as to why it was considered an ideal Route to the Peak is, unlike other Routes, the Central Circuit Route is easy and less challenging for hikers that are not that fit. It also has numerous things to offer to all hikers and these include; beautiful views of all the other portal peaks i.e Baker, Speke and Stanley, vegetation Terrain, Bird Species, mammal species, primates etc.
+              The Ascension and Descend of the Mountain along this Route is remarkable due to the fact that hikers can transfer along various paths/ trails which offer hikers an opportunity to explore and discover more of the Mountain.
+              Accommodation along this route is in form of wooden Cabins at particular stops for all hikers."
             />
 
             <Image
@@ -228,4 +162,4 @@ const MountKilimanjaroPage = () => {
   );
 };
 
-export default MountKilimanjaroPage;
+export default MountRuwenzoriPage;

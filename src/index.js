@@ -8,6 +8,7 @@ import MountKenyaHike from './Components/Pages/MountKenyaHike';
 import GalleryPage from './Components/Pages/GalleryPage/Gallery';
 import MountKenyaPage from './Components/Pages/FullExplanation/MtKenya';
 import MountKilimanjaroPage from './Components/Pages/FullExplanation/MtKilimanjaro';
+import MountRuwenzoriPage from './Components/Pages/FullExplanation/MtRuwenzori';
 import NothernKenya from './Components/Pages/FullExplanation/NothernKenya'
 
 ReactDOM.render(
@@ -20,6 +21,7 @@ ReactDOM.render(
     <Route path='/mount-kenya' element={<MountKenyaPage />} />
     <Route path='/mount-kilimanjaro' element={<MountKilimanjaroPage />} />
     <Route path='/nothern-kenya' element={<NothernKenya />} />
+    <Route path='/mount-ruwenzori' element={<MountRuwenzoriPage />} />
   </Routes>
   </BrowserRouter>,
   document.getElementById('root')

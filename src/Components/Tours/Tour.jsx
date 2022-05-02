@@ -10,7 +10,7 @@ const Tour = ({image, duration, zone, pricing, description, link}) => {
             <p className="tour__pricing">{pricing}</p>
             <p className="tour__description">{description} <span className="tour__svg"><Suitcase /></span></p>
             {/* <a href="/" className="tour__button" >learn more and book tour</a> */}
-            <Link to={link} className="tour__button">learn more about this tour</Link>
+            <Link to={link} className="tour__button">Read more</Link>
         </div>
     )
 }

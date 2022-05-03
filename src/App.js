@@ -19,7 +19,7 @@ function App() {
       <SocialLinks />
       <Hero />
       <Tours />
-      <About />
+      {/* <About /> */}
       {/* <TeamMembers /> */}
       {/* <Testimonials /> */}
       <Subscribe />

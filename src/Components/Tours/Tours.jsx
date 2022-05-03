@@ -1,18 +1,18 @@
 import React from "react";
 import Heading from "../Heading/Heading";
-import tourImg1 from "./../../Assets/images/zone-4.jpg";
-import tourImg2 from "./../../Assets/images/zone-1.jpg";
-import tourImg3 from "./../../Assets/images/zone-2.jpg";
-import tourImg4 from "./../../Assets/images/zone-3.jpg";
-import tourImg5 from "./../../Assets/images/zone-5.jpg";
-import tourImg6 from "./../../Assets/images/zone-6.jpg";
+import mountKenya from "./../../Assets/images/client-images/mount-kenya.jpg";
+import uhuruPeak from "./../../Assets/images/client-images/uhuru-peak.jpg";
+import maasai from "./../../Assets/images/client-images/maasai.jpg";
+import ruwenzori from "./../../Assets/images/client-images/ruwenzori.jpg";
+import kps from "./../../Assets/images/client-images/kenyan-wildlife-photography.jpg";
+import kenyanCoast from "./../../Assets/images/client-images/kenyan-coast.jpg";
 import Tour from "./Tour";
 
 const Tours = () => {
   // image, duration, zone, pricing
   const tours = [
     {
-      image: tourImg1,
+      image: mountKenya,
       duration: "5 days of trek",
       zone: "mount kenya",
       pricing: "",
@@ -21,7 +21,7 @@ const Tours = () => {
       link: '/mount-kenya'
     },
     {
-      image: tourImg2,
+      image: uhuruPeak,
       duration: "7 days of trek",
       zone: "mount kilimanjaro",
       pricing: "",
@@ -30,7 +30,7 @@ const Tours = () => {
         link: '/mount-kilimanjaro'
     },
     {
-      image: tourImg3,
+      image: maasai,
       duration: "8 days safari",
       zone: "nothern kenya",
       pricing: "",
@@ -38,7 +38,7 @@ const Tours = () => {
       link: '/nothern-kenya'
     },
     {
-      image: tourImg4,
+      image: ruwenzori,
       duration: "6-7 days trek",
       zone: "mount ruwenzori",
       pricing: "",
@@ -47,16 +47,16 @@ const Tours = () => {
         link: '/mount-ruwenzori'
     },
     {
-      image: tourImg6,
+      image: kps,
       duration: "6 days safari",
-      zone: "kenyan photographic safari",
+      zone: "kenyan photographic safaris",
       pricing: "",
       description:
         "Home to Africa’s most iconic parks, conservancies and game reserves, Kenya guarantees some of the most exotic, diverse and breathtaking wildlife you will ever see. From the famous Big Five to wild animals that can only be found in this part of the world, Kenya will not disappoint. When it comes to topography, Kenya has scenery that knows no bounds. It features an unrivaled land of diversity and contrast. From vast savannah plains, gorgeous mountains and intriguing woodlands to lush forests and hot deserts to turquoise seas, winding rivers and beautiful white sand beaches!",
         link: '/kenyan-photographic-safaris'
     },
     {
-      image: tourImg5,
+      image: kenyanCoast,
       duration: "5 days safari",
       zone: "kenyan coast",
       pricing: "",

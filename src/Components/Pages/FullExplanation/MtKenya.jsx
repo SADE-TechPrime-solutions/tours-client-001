@@ -9,7 +9,7 @@ import Footer from "./Footer/Footer";
 
 // images importing
 // chogoria-route-via-mintos-camp
-import imgbg from "./../../../Assets/images/vac6.jpg";
+import imgbg from "./../../../Assets/images/client-images/mount-kenya-bg.jpg";
 import lakeMichaelson from "./../../../Assets/images/client-images/lake-michaelson-on-mount-kenya.jpg";
 import vegetation from "./../../../Assets/images/client-images/mount-kenya-vegetation.jpg";
 import sunrise from "./../../../Assets/images/client-images/sunrise-on-lake-michaelson.jpg";
@@ -28,7 +28,7 @@ const MountKenyaPage = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 1000);
   }, []);
   return (
     <div className="root">

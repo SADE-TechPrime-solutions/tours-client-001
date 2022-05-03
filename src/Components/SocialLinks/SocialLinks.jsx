@@ -15,6 +15,7 @@ const SocialLinks = () => {
             </a>
             <a href="mailto:mutumakinyuakennedy@gmail.com" className="social__link__side">
                 <Envelope />
+                
             </a>
         </div>
     )

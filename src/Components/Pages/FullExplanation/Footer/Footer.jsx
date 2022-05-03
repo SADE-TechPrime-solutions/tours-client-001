@@ -22,23 +22,23 @@ const Footer = () => {
             <div className="fe-footer__social">
             <h2 className="fe-footer__title">Reach us</h2>
                 <div className="fe-footer__icon-links">
-                    <a href="" className="fe-footer__social--link">
+                    <a href="https://wa.link/azfz0" className="fe-footer__social--link">
                         <WhatsApp1 />
                     </a>
-                    <a href="" className="fe-footer__social--link">
+                    <a href="https://www.instagram.com/eastafricanorthwildsafaris/" className="fe-footer__social--link">
                         <Ig2 />
                     </a>
-                    <a href="" className="fe-footer__social--link">
+                    <a href="https://web.facebook.com/Wilderness-Alternative-Expendation-106636452031478" className="fe-footer__social--link">
                         <Facebook />
                     </a>
-                    <a href="" className="fe-footer__social--link">
+                    <a href="mailto:mutumakinyuakennedy@gmail.com" className="fe-footer__social--link">
                         <Envelope />
                     </a>
                 </div>
                 <div className="fe-footer__social--quicks">
-                    <p className="fe-footer__social__link--text">Call : <span>0712345678</span></p>
-                    <p className="fe-footer__social__link--text">Email : <span>expediaalt@gmail.com</span></p>
-                    <p className="fe-footer__social__link--text">Text Message : <span>0712345678</span></p>
+                    <p className="fe-footer__social__link--text">Call : <span>+254743789655</span></p>
+                    <p className="fe-footer__social__link--text">Email : </p>
+                    <p className="fe-footer__social__link--text">Text Message : <span>+254743789655</span></p>
                 </div>
             </div>
         </footer>

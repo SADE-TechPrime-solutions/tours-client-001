@@ -1,7 +1,6 @@
 import React from "react";
 import Heading from "../../Heading/Heading";
 import ImageData from "./ImageData";
-import img from "../../../Assets/images/bg2.jpg";
 import Footer from "../../Footer/Footer";
 
 import natureView from "../../../Assets/images/Nature-view.jpg";

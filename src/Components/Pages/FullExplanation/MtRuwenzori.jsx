@@ -26,13 +26,13 @@ const MountRuwenzoriPage = () => {
         <LoaderAnimation />
       ) : (
         <>
-          // {/* hero */}
+          {/* hero */}
           <HeroFE
             backImg={imgbg}
             title="climb mount ruwenzori in 7 days."
             description="The Rwenzori Mountains National Park covers nearly 100,000 ha in western Uganda and comprises the main part of the Rwenzori mountain chain, which includes Africa's third highest peak (Mount Margherita: 5,109 m). The region's glaciers, waterfalls and lakes make it one of Africa's most beautiful alpine areas. The park has many natural habitats of endangered species and a rich and unusual flora comprising, among other species, the giant heather."
           />
-          // {/* end of hero */}
+          {/* end of hero */}
           {/* arrangements and documentation */}
           <section className="arrangements-docuemtation__section">
             <div className="arrangements__container">

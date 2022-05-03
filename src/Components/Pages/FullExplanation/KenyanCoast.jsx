@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 
 import Heading from "../../Heading/Heading";
 import HeroFE from "./Hero/Hero";
-import Benefit from "./Benefits/Benefit";
 import RouteDetails from "./RouteDetails/RouteDetails";
 import Image from "./Image/Image";
 import Footer from "./Footer/Footer";
@@ -33,14 +32,14 @@ const KenyanCoastPage = () => {
         <LoaderAnimation />
       ) : (
         <>
-          // {/* hero */}
+           {/* hero */}
           <HeroFE
             backImg={imgbg}
             title="ever dreamt of visiting the Kenyan Coast?"
             description="The Kenyan coast Protected by an offshore barrier coral reef, Kenya’s coastline is famous for its spectacular beaches, tropical waters and array of water sports such as snorkeling, scuba diving, fishing, and kite surfing. With its own unique character, the Kenyan coast offers the perfect end to an exhilarating safari.
             The breathtaking destination of Kenyan coast boasts the region’s most prized beaches, and south of Diani is where you will find Wasini Island and the Wasini Marine National Park, one of the best snorkelling places in Africa."
           />
-          // {/* end of hero */}
+          {/* end of hero */}
           {/* arrangements and documentation */}
           <section className="arrangements-docuemtation__section">
             <div className="arrangements__descritption">

@@ -1,16 +1,16 @@
-import React, {useRef, useEffect} from 'react';
+import React, {useRef} from 'react';
 
-const TextBox = ({image, title, text, shouldReverse}) => {
+const TextBox = ({image, title, text}) => {
     const addReverseRef = useRef(null)
-        const reverseEngine = () => {
-            console.log(addReverseRef)
-            if(shouldReverse){
-                addReverseRef.current.classList.add('u-flex-reverse')
-            }
-        }
-        useEffect(() => {
-            reverseEngine()
-        }, [])
+        // const reverseEngine = () => {
+        //     console.log(addReverseRef)
+        //     if(shouldReverse){
+        //         addReverseRef.current.classList.add('u-flex-reverse')
+        //     }
+        // }
+        // useEffect(() => {
+        //     reverseEngine()
+        // }, [])
     return(
         <div className="blog__textbox" ref={addReverseRef}>
             <div className="blog__textbox--image">

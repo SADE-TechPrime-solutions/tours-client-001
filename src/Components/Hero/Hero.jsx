@@ -6,10 +6,10 @@ const Hero = () => {
         <section className="home" id='home'>
             <div className="home__textbox">
                 <h1 className="home__title">
-                    <span className="home__title--main">Discover</span>
-                    <span className="home__title--sub">the world</span>
+                    <span className="home__title--main">travel to east africa</span>
+                    <span className="home__title--sub">home of authentic safaris</span>
                 </h1>
-                <Link className="textbox__button" to='/gallery'>explore today &hearts; &rarr;</Link>
+                <Link className="textbox__button" to='/gallery'>explore gallery &hearts; &rarr;</Link>
             </div>
         </section>
     )

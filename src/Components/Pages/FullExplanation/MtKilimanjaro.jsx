@@ -27,13 +27,13 @@ const MountKilimanjaroPage = () => {
         <LoaderAnimation />
       ) : (
         <>
-          // {/* hero */}
+          {/* hero */}
           <HeroFE
             backImg={imgbg}
             title="climb mount Kilimanjaro in 10 days"
             description="As the popularity of climbing Mount Kilimanjaro continues to increase, potential climbers are often uncertain as to which route to take. This site will explain the differences between the routes and help you decide which is the best for you. At 5,895 meters (19,341 feet) Mount Kilimanjaro is the highest mountain in Africa and the tallest freestanding mountain in the world; it is one of the Seven Summits. The snow-capped peak of Africa is a dormant volcano and can be found inside the Kilimanjaro National Park of Tanzania."
           />
-          // {/* end of hero */}
+          {/* end of hero */}
           {/* arrangements and documentation */}
           <section className="arrangements-docuemtation__section">
             <div className="arrangements__container">

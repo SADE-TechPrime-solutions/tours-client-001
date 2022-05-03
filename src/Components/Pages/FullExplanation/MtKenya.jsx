@@ -36,13 +36,13 @@ const MountKenyaPage = () => {
         <LoaderAnimation />
       ) : (
         <>
-          // {/* hero */}
+           {/* hero */}
           <HeroFE
             backImg={imgbg}
             title="climb mount kenya via chogoria route in 5 days"
             description="Experience beautiful landscapes and spectacular mountain views on this 5-day Mt Kenya climb along the Chogoria Route. From gentle hikes to steep ascents, this route will lead you through fairy forests and moorlands, passing high waterfalls and gurgling streams. Make sure to look for elephants, buffaloes, and antelopes in the lower mountain region."
           />
-          // {/* end of hero */}
+         {/* end of hero */}
           {/* arrangements and documentation */}
           <section className="arrangements-docuemtation__section">
             <div className="arrangements__container">

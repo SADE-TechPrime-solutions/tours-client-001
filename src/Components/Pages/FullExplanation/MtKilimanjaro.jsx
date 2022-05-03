@@ -149,9 +149,9 @@ const MountKilimanjaroPage = () => {
           </section>
           {/* end of arrangements and documentation */}
           <section className="educational-section">
-            <h1 className="educational__title">
+            <h2 className="educational__title">
               mount kilimanjaro climbing routes
-            </h1>
+            </h2>
             <p className="background__information route-detail__description">
               There are seven established routes to climb Mount Kilimanjaro -
               Marangu, Machame, Lemosho, Shira, Rongai, Northern Circuit and

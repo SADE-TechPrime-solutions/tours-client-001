@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  list-style: none;
+  /* list-style: none; */
 }
 
 html{
@@ -290,7 +290,6 @@ body {
     flex-direction: column;
     left: 0;
     top: 1rem;
-    display: none!important;
   }
 }
 /* End of Navigation */
@@ -1419,9 +1418,9 @@ body {
 }
 
 .educational__image{
-  width: 50rem;
-  height: 30rem;
-  margin: 3rem auto;
+  width: 70rem;
+  height: 60rem;
+  margin: 4rem auto;
   box-shadow: 0 0 10px;
 }
 
@@ -1454,6 +1453,16 @@ body {
   text-align: justify;
 }
 
+.educational__list{
+  margin-left: 6rem;
+  list-style: none;
+}
+
+.educational__list >*{
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 750px) {
   .educational{
     width: 90vw;
@@ -1463,9 +1472,15 @@ body {
   }
 
   .educational__image{
-    width: 100%;
-    margin-left: 0;
+    width: 98%;
+    margin: 4rem auto;
     margin-top: 1rem;
+  }
+  .educational__image--img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
   }
 }
 

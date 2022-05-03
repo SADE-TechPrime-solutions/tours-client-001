@@ -30,11 +30,6 @@ const MountKenyaPage = () => {
       setLoading(false);
     }, 3000);
   }, []);
-  const arrayOfTodos = [
-    "make sure you do this when you get there, it will always come in handy and make everything nice in the long run",
-    "make sure you do this when you get there, it will always come in handy and make everything nice in the long run",
-    "make sure you do this when you get there, it will always come in handy and make everything nice in the long run",
-  ];
   return (
     <div className="root">
       {loading ? (

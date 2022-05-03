@@ -8,7 +8,7 @@ import Footer from "./Footer/Footer";
 
 // images importing
 // chogoria-route-via-mintos-camp
-import imgbg from "./../../../Assets/images/vac6.jpg";
+import imgbg from "./../../../Assets/images/client-images/bg.jpg";
 
 // the images
 import elephants from "./../../../Assets/images/client-images/elephants-at-amboselli.jpg";
@@ -19,6 +19,7 @@ import flamingo from "./../../../Assets/images/client-images/flamingo-on-lake-na
 import wildbeasts from "./../../../Assets/images/client-images/wildbeasts-migration-at-maasai-mara.jpg";
 import palmTrees from "./../../../Assets/images/client-images/palm-trees-on-the-kenyan-coast.jpg";
 import hotAirBaloon from "./../../../Assets/images/client-images/hot-air-baloon-at-maasai-mara.jpg";
+import culture from "./../../../Assets/images/client-images/interacting-with-the-samburu-culture.jpg";
 
 import LoaderAnimation from "../../Loader/LoaderAnimation";
 
@@ -38,8 +39,8 @@ const KenyanPhotographicSafarisPage = () => {
         <>
           <HeroFE
             backImg={imgbg}
-            title="kps is awesome"
-            description="Experience beautiful landscapes and spectacular mountain views on this 5-day Mt Kenya climb along the Chogoria Route. From gentle hikes to steep ascents, this route will lead you through fairy forests and moorlands, passing high waterfalls and gurgling streams. Make sure to look for elephants, buffaloes, and antelopes in the lower mountain region."
+            title="Kenyan Photographic Safari"
+            description=" Kenya has long been Africa’s most storied safari destination. Known for its legendary wildlife and evocative landscapes, Kenya offers photographers countless opportunities to capture iconic images of Africa: Graceful giraffes browsing in acacia trees, elephants traversing the savanna, stealthy lions stalking gazelle, proud Maasai bedecked in ceremonial beadwork.  This 10-day photo safari is designed for photographers of every level using equipment of all levels… including mobile phones.  A professional photographer will be with us the entire trip giving personal attention and support and helping us enhance our photos."
           />
           {/* arrangements and documentation */}
           <section className="arrangements-docuemtation__section">
@@ -129,9 +130,9 @@ const KenyanPhotographicSafarisPage = () => {
                 </p>
 
                 <Image
-                  image={hotAirBaloon}
-                  altText="What is more magical than a sunrise on hot air baloon safari in the Maasai Mara."
-                  caption="What is more magical than a sunrise on hot air baloon safari in the Maasai Mara."
+                  image={culture}
+                  altText="One of our clients learning on how to milk a goat in Samburu."
+                  caption="One of our clients learning on how to milk a goat in Samburu."
                 />
               </div>
             </div>
@@ -249,6 +250,33 @@ const KenyanPhotographicSafarisPage = () => {
               </li>
             </ol>
           </section>
+
+          <h2 className="educational__title">5 kenyan combined safari</h2>
+          <RouteDetails
+            title="day 1: arrival in nairobi and drive to amboselli national park"
+            description="You will arrive at Jomo Kenyatta International Airport full of anticipation, happy to be in the land of safari. We match your enthusiasm, and your driver will be waiting for you when you arrive. After formally welcoming you and giving you a brief of your trip, you will embark on the four hour trip to Amboseli National Park. You will arrive at Amboseli late in the afternoon/ early evening. After checking in at Ol Tukai Lodge, you will only have enough time to freshen up before the evening game drive. As mentioned earlier, Amboseli is home to some of the largest elephant herds in Africa. In this evening game drive you will encounter not only the elephants but other wild animals such as lions, buffalos, giraffes, leopards and cheetahs.The world’s largest free-standing mountain will serve as the perfect background as you explore the open plains. Towards dusk you will return to your lodge for dinner and overnight."
+          />
+
+          <RouteDetails
+            title="day 2: full day game drive in Amboselli National Park"
+            description="Your second day will start bright and early as there is much to do and see on this day.  After a hearty breakfast, you will venture out for a morning game drive. One advantage of Amboseli over other parks is that vegetation is sparse, which makes game viewing easier. No sooner have you settled in the drive than you will start seeing lions, cheetahs, elephants, gazelles and many other animals around you.
+            At this time of day, the beauty of the snow-capped Mt. Kilimanjaro is indescribable. Good thing you have your camera with you to immortalize these moments."
+          />
+
+          <RouteDetails
+            title="Day 3  – Road Trip from Amboseli – Naivasha"
+            description="After an exciting tour of Amboseli National Park, you will leave early on the third day and head out to Naivasha. The reason we have chosen Naivasha for a stop is that driving straight to the Mara would require being on the road all day. And this is a holiday after all! You will arrive in Naivasha in the afternoon and check-in at Eseriani Hotel. This is a small boutique hotel by the highway, which is quite convenient as you will be departing early in the morning for the Masai Mara. You will relax after a long drive, perhaps enjoy a massage.  Have a good night’s sleep as tomorrow the Masai Mara awaits."
+          />
+
+          <RouteDetails
+            title="Day 4 – Naivasha to Maasai Mara"
+            description="You will leave Naivasha at dawn, immediately after breakfast. The plan is to get to the Mara by lunchtime. The drive is pleasant and the hours will fly by. Soon, you will be in the most famous park in the world. After freshening up you will enjoy a lavish buffet lunch after which you are free to take a nap or a swim before embarking on your first game drive. The Maasai Mara is a vast savannah stretching as far as you can see, and there will be wild animals everywhere. The evening is a particularly good time for a game drive as animals come out for dinner. You will be able to see lions, elephants, giraffes, hyenas, wildebeest, antelopes and a variety of other species. Your driver knows all the best spots in the park, and he will gladly take you to them. He also knows quite a bit about the animals and their behavior, so do ask if you have any questions.  After about three hours or so it will be dark, and time to return to the lodge for dinner and entertainment."
+          />
+
+          <RouteDetails
+            title="Day 5 – Game Drives in Masai Mara and Flight Back Home"
+            description="This day will start early in the morning as there is quite a bit to do. Your driver will pick you up after breakfast for a morning game drive. This game drive will be extended until lunchtime. This is so that you can enjoy more of what the Mara has to offer. This time your driver will head to a different area of the park, following tips from other drivers on where the action is. By the Mara River, which comes alive during the wildebeest migration you will see crocodiles and hippos, as well as a variety of water birds. Because the Mara has a high density of wildlife, you will be able to see the big 5- lion, leopard, elephant, buffalo and hippo. If you are an avid bird watcher, you will not be disappointed. The Maasai Mara has over 450 recorded species of local and migratory birds. Do not forget to bring your binoculars for this. The next stop during this morning game drive is the observation hill. This is one of the few places within the park where you can get out of the vehicle and take a walk around. From the top you will be able to see all corners of the park. After an exciting morning you will be taken back to Ol Tukai Lodge for lunch, and perhaps an afternoon dip in the pool. At around 4 pm you will head out again for an evening game drive.  is the best time to see the animals as they come out to hunt for dinner. Large elephant families will gather around the watering holes to drink, and the lions will try their luck at catching dinner. it will be dark, and time to return to the lodge for dinner and entertainment."
+          />
           <Footer />
         </>
       )}

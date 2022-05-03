@@ -13,12 +13,12 @@ const Hero = () => {
                 <Link className="textbox__button" to='/gallery'>explore today &hearts; &rarr;</Link>
 
                 <div className="home__subfeatures">
-                    <Link to="/climbing-mount-kenya" className="home__subfeature--link">
+                    <Link to="/about-us" className="home__subfeature--link">
                         <div className="subfeature">
                             <div className="subfeature__svg">
                                 <Hike />
                             </div>
-                            <p className="subfeature__text">mt ruwenzori</p>
+                            <p className="subfeature__text">about us</p>
                         </div>
                     </Link>
                     <Link to="/climbing-mount-kenya-2" className="home__subfeature--link">

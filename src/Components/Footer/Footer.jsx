@@ -5,9 +5,9 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer__container">
                 <div className="footer__cont">
-                    <h2 className="footer__header">Zaph tours</h2>
+                    <h2 className="footer__header">Wilderness Alternative Expeditions</h2>
                     <p className="footer__text">
-                        Zaph tours is a tours and hike companys based in Kenya, Kirinyaga county, our tours are very cheap and pocket friendly, some of our tours are in fact free of charge. Try Zaph tours today and see a difference in how you have fun and relax you brain.
+                    Wilderness Alternative Expeditions is a tours and hike companys based in Kenya, Kirinyaga county, our tours are very cheap and pocket friendly, some of our tours are in fact free of charge. Try Zaph tours today and see a difference in how you have fun and relax you brain.
                     </p>
                 </div>
                 <div className="footer__cont">

@@ -4,7 +4,7 @@ import { WhatsApp1, Envelope, Facebook, Ig2 } from "../Icons/Icons";
 const SocialLinks = () => {
     return(
         <div className="social__links__side">
-            <a href="/" className="social__link__side">
+            <a href="https://wa.link/azfz0b" target="_blank" className="social__link__side">
                 <WhatsApp1 />
             </a>
             <a href="https://www.instagram.com/eastafricanorthwildsafaris/" target="_blank" className="social__link__side">

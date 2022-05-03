@@ -62,7 +62,7 @@ const Tours = () => {
       pricing: "",
       description: 
         "Any visitor to Kenya should consider visiting Mombasa during their holidays! This top destination for people who want to experience a tropical feel while in Africa. Mombasa provides the opportunity to enjoy incredible weather, the beautiful waters of the Indian Ocean, white sandy beaches, and the tastiest Kenyan food.",
-      link: '/mount-kenya'
+      link: '/kenyan-coast'
     },
   ];
   return (

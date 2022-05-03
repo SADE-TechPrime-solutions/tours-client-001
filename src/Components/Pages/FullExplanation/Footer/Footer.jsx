@@ -31,13 +31,13 @@ const Footer = () => {
                     <a href="https://web.facebook.com/Wilderness-Alternative-Expendation-106636452031478" className="fe-footer__social--link">
                         <Facebook />
                     </a>
-                    <a href="mailto:mutumakinyuakennedy@gmail.com" className="fe-footer__social--link">
+                    <a href="mailto:info@wildernessalternativeexpedition.com" className="fe-footer__social--link">
                         <Envelope />
                     </a>
                 </div>
                 <div className="fe-footer__social--quicks">
                     <p className="fe-footer__social__link--text">Call : <span>+254743789655</span></p>
-                    <p className="fe-footer__social__link--text">Email : </p>
+                    <p className="fe-footer__social__link--text">Email : info@wildernessalternativeexpedition.com</p>
                     <p className="fe-footer__social__link--text">Text Message : <span>+254743789655</span></p>
                 </div>
             </div>

@@ -13,7 +13,7 @@ const SocialLinks = () => {
             <a href="https://web.facebook.com/Wilderness-Alternative-Expendation-106636452031478" target="_blank" rel="noreferrer" className="social__link__side">
                 <Facebook />
             </a>
-            <a href="mailto:mutumakinyuakennedy@gmail.com" className="social__link__side">
+            <a href="mailto:info@wildernessalternativeexpedition.com" className="social__link__side">
                 <Envelope />
                 
             </a>

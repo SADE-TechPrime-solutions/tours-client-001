@@ -37,7 +37,7 @@ const Footer = () => {
                     <div className="footer__contact">
                         <p className="footer__contact--item">call: +254743789655</p>
                         <p className="footer__contact--item">send us a whatsapp message: +254743789655</p>
-                        <p className="footer__contact--item">email: </p>
+                        <p className="footer__contact--item">email:info@wildernessalternativeexpedition.com </p>
                     </div>
                 </div>
             </div>

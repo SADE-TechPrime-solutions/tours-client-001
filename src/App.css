@@ -419,6 +419,21 @@ body {
   font-weight: normal;
 }
 
+@media screen and (max-width: 700px) {
+  .home__textbox{
+    width: 98vw;
+    margin: auto;
+  }
+
+  .home__title{
+    font-size: 6rem;
+    text-align: center;
+  }
+  .home__title--main{
+    font-size: 8rem;
+  }
+}
+
 .textbox__button{
   font-size: 1.6rem;
   padding: 1.5rem 2rem;
@@ -1038,6 +1053,12 @@ body {
   margin-bottom: 4rem;
 }
 
+@media screen and (max-width: 700px) {
+  .footer__container{
+    display: flex;
+    flex-direction: column;
+  }  
+}
 
 .footer__header{
   font-family: serif;

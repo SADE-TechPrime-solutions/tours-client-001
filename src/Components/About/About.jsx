@@ -53,21 +53,23 @@ const About = () => {
             bgText="about us"
           />
         </div>
-        <p className="about__description">
-          At Wilderness Alternative Expedition, we take pride in putting you in
-          the right place at the right time to maximise your wildlife
-          encounters. This is at the heart of everything we do, at all levels of
-          the business. Our team have lived, worked and travelled across the
-          East Africa , and together we have the requisite knowledge and
-          experience to plan the perfect safari for you. We work with some of
-          the best guides in the tour industry; experts in the wilderness who
-          have spent years working, living or researching in their chosen
-          destination. From Mountaij guides to expert Safari guides, all of our
-          expedition leaders have been carefully selected for their experience,
-          personality and in-depth wildlife knowledge. our guides passion and
-          enthusiasm for the natural world is contagious, and they enjoy nothing
-          more than sharing their expertise with our guests
-        </p>
+        <div className="about__self-sale-container">
+          <p className="about__description about__features--container">
+            At Wilderness Alternative Expedition, we take pride in putting you
+            in the right place at the right time to maximise your wildlife
+            encounters. This is at the heart of everything we do, at all levels
+            of the business. Our team have lived, worked and travelled across
+            the East Africa , and together we have the requisite knowledge and
+            experience to plan the perfect safari for you. We work with some of
+            the best guides in the tour industry; experts in the wilderness who
+            have spent years working, living or researching in their chosen
+            destination. From Mountaij guides to expert Safari guides, all of
+            our expedition leaders have been carefully selected for their
+            experience, personality and in-depth wildlife knowledge. our guides
+            passion and enthusiasm for the natural world is contagious, and they
+            enjoy nothing more than sharing their expertise with our guests
+          </p>
+        </div>
         <div className="about__self-sale-container">
           <Heading
             subHeading=""

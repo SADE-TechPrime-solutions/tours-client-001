@@ -113,7 +113,7 @@ const About = () => {
               In Africa. However, we also run a number of very specialist
               safaris throughout the East Africa, with real focusses, from fine
               art wildlife and landscape photography, to exploring with
-              world-renowned, expert naturalists.   These safaris, we call them
+              world-renowned, expert naturalists. These safaris, we call them
               specialist led, give a unique twist on your safari experience, and
               are ideal for anyone with specific interests; be it photography or
               otherwise. They are led by people, Expert in their field, and

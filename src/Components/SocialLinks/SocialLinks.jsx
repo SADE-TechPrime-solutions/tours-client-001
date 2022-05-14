@@ -7,7 +7,7 @@ const SocialLinks = () => {
             <a href="https://wa.link/azfz0b" target="_blank" rel="noreferrer" className="social__link__side">
                 <WhatsApp1 />
             </a>
-            <a href="https://www.instagram.com/eastafricanorthwildsafaris/" target="_blank" rel="noreferrer" className="social__link__side">
+            <a href="https://www.instagram.com/wilderness_alternative/" target="_blank" rel="noreferrer" className="social__link__side">
                 <Ig2 />
             </a>
             <a href="https://web.facebook.com/Wilderness-Alternative-Expendation-106636452031478" target="_blank" rel="noreferrer" className="social__link__side">
